@@ -1,5 +1,8 @@
 # CloudSwoop 飞控系统项目
 
+## 为开发者提供API以协助开发
+- **后端API**: 请查看[Http API](https://app.apifox.com/project/7208032)
+
 ## 联系方式与购买信息
 
 ### 官方网站
