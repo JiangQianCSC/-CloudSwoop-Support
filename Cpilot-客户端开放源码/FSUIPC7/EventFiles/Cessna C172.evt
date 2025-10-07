@@ -1,0 +1,5 @@
+[Events]
+0=MobiFlight.C172_BATTERY_ON
+1=MobiFlight.C172_BATTERY_OFF
+2=MobiFlight.C172_ALTERNATOR_ON
+3=MobiFlight.C172_ALTERNATOR_OFF

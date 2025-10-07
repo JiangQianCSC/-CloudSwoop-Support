@@ -1,0 +1,17 @@
+[Events]
+0=MobiFlight.TransponderIDT
+1=MobiFlight.TransponderVFR
+2=MobiFlight.TransponderCLR
+3=MobiFlight.Transponder0
+4=MobiFlight.Transponder1
+5=MobiFlight.Transponder2
+6=MobiFlight.Transponder3
+7=MobiFlight.Transponder4
+8=MobiFlight.Transponder5
+9=MobiFlight.Transponder6
+10=MobiFlight.Transponder7
+11=MobiFlight.TransponderOFF
+12=MobiFlight.TransponderSTBY
+13=MobiFlight.TransponderTST
+14=MobiFlight.TransponderON
+15=MobiFlight.TransponderALT

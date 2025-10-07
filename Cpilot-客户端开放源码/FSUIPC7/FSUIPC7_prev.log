@@ -1,0 +1,43 @@
+********* FSUIPC7, Version 7.4.17 (4th September 2024) by John Dowson *********
+**** New version available: version 7.5.4 is available ****
+MS Store installation detected: Checking for FS path in 'C:\Users\77291\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache\UserCfg.opt'
+FS path found = G:\MSFS2020\
+WebSocket server found: D:\下载\程序开发文档\CPilot\FSUIPC7\\Utils\FSUIPCWebSocketServer.exe
+Windows 11 detected - setting DisableMSFSMonitor to 'Enum'
+Windows 10 Home China 64 Bit reported as Build 26100, Release ID: 2009 (OS 10.0)
+FSUIPC is running with standard privileges
+Reading options from "D:\下载\程序开发文档\CPilot\FSUIPC7\FSUIPC7.ini"
+Checking the Registrations now ...
+User Name="Tang Qinghui"
+User Addr="admin@fsxchina.com"
+FSUIPC7 Key is provided
+WIDEFS7 not user registered, or expired
+       46 System time = 06/10/2025 10:58:57
+       46 FLT path = "C:\Users\77291\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\"
+       46 Allowing calibration when not assigned with 'Send direct to FSUIPC Calibration'
+       62 -------------------------------------------------------------------
+      125 *** Calcode for preset 'GNS530_GNS430' exceeds max allowed length of 1023 characters - ignoring
+      125 Preset file 'D:\下载\程序开发文档\CPilot\FSUIPC7\myevents.txt' not found [info only]
+      125 16557 Calculator Code presets have been loaded and are available for use
+      171 Run: "D:\下载\程序开发文档\CPilot\FSUIPC7\\Utils\FSUIPCWebSocketServer.exe"
+      171 Registered HotKey 'InvokeFSUIPCOptionsKey' (key=0x46, modifier=0x1)
+      171 FS path = "G:\MSFS2020\"
+      171 WASM not installed - WAPI not enabled
+      171 ---------------------- Joystick Device Scan -----------------------
+      171 Product= Android Gamepad
+      171    Manufacturer= Android Gamepad
+      171    Vendor=2563, Product=0526 (Version 1.0)
+      421    GUIDs returned for product: VID_2563&PID_0526:
+      421       GUID= {E527DC30-FD15-11EF-8002-444553540000}
+      421       Details: Btns=15, POVs=(0, 0, 0, 0), Cal=x00000000, Max=R255,U0,V0,X255,Y255,Z255
+      421 -------------------------------------------------------------------
+      437 Device acquired for use:
+      437    Joystick ID = 0 (Registry okay)
+      437    0=Android Gamepad
+      437    0.GUID={E527DC30-FD15-11EF-8002-444553540000}
+      437 -------------------------------------------------------------------
+      453 LogOptions=00000000 00000001
+      453 Manually started with DetectToConnectDelay=1, InitialStallTime=15
+      468 *** FSUIPC WASM module not detected - not adding WASM menu
+  1710328 WebSocket Server no longer running
+  1710328 Stopped: "D:\下载\程序开发文档\CPilot\FSUIPC7\\Utils\FSUIPCWebSocketServer.exe"

@@ -1,0 +1,139 @@
+Removing FSUIPC7...
+Removing documentation installed with FSUIPC7...
+Delete file: D:\下载\FSUIPC7\Profiles in Separate Files.pdf
+Delete file: D:\下载\FSUIPC7\LuaFileSystem.pdf
+Delete file: D:\下载\FSUIPC7\Lua Plugins for VRInsight Devices.pdf
+Delete file: D:\下载\FSUIPC7\Lua License.pdf
+Delete file: D:\下载\FSUIPC7\FSUIPC7 User Guide.pdf
+Delete file: D:\下载\FSUIPC7\FSUIPC7 Offsets Status.pdf
+Delete file: D:\下载\FSUIPC7\FSUIPC7 History.pdf
+Delete file: D:\下载\FSUIPC7\FSUIPC7 for Advanced Users.pdf
+Delete file: D:\下载\FSUIPC7\FSUIPC Lua Plug-Ins.pdf
+Delete file: D:\下载\FSUIPC7\FSUIPC Lua Library.pdf
+Delete file: D:\下载\FSUIPC7\Installing and Registering FSUIPC7.pdf
+Delete file: D:\下载\FSUIPC7\Example LUA plugins.zip
+Delete file: D:\下载\FSUIPC7\FSI2 Manual.pdf
+Delete file: D:\下载\FSUIPC7\Controls List for MSFS Build 999.txt
+Delete file: D:\下载\FSUIPC7\Offset Mapping for PMDG 737-700.pdf
+Remove folder: D:\下载\FSUIPC7\
+Delete file: D:\FSUIPC7\FSUIPC7.exe
+Delete file: D:\FSUIPC7\InstallFSUIPC7.log
+Delete file: D:\FSUIPC7\FSUIPC7.log
+Delete file: D:\FSUIPC7\FSUIPC7_prev.log
+Delete file: D:\FSUIPC7\Utils\FSInterrogate2std.exe
+Delete file: D:\FSUIPC7\Utils\HidScanner.exe
+Delete file: D:\FSUIPC7\Utils\FSUIPCWebSocketServer.exe
+Delete file: D:\FSUIPC7\events.txt
+Delete file: D:\FSUIPC7\events-LICENSE.txt
+Delete file: D:\FSUIPC7\Utils\FSUIPC_WAPID.dll
+Delete file: D:\FSUIPC7\SDK\FSUIPC feedback control.txt
+Delete file: D:\FSUIPC7\SDK\FSUIPC for Programmers.pdf
+Delete file: D:\FSUIPC7\SDK\FSUIPC_User_Lib_for_VC_2010.zip
+Delete file: D:\FSUIPC7\SDK\FSUIPCDotNetClient2.4.zip
+Delete file: D:\FSUIPC7\SDK\Library for FS Internal Users.zip
+Delete file: D:\FSUIPC7\SDK\Module_User_lib_for_VC_2010.zip
+Delete file: D:\FSUIPC7\SDK\ModuleUser64.zip
+Delete file: D:\FSUIPC7\SDK\New Weather Interface for FS2004.zip
+Delete file: D:\FSUIPC7\SDK\NewWeather.h
+Delete file: D:\FSUIPC7\SDK\ReadMe.txt
+Delete file: D:\FSUIPC7\SDK\UIPC_RealBasic_SDK.zip
+Delete file: D:\FSUIPC7\SDK\UIPC_SDK_ASM.zip
+Delete file: D:\FSUIPC7\SDK\UIPC_SDK_BCB5.zip
+Delete file: D:\FSUIPC7\SDK\UIPC_SDK_C.zip
+Delete file: D:\FSUIPC7\SDK\UIPC_SDK_.NET_(C#,VB.NET).txt
+Delete file: D:\FSUIPC7\SDK\UIPC_SDK_Delphi.zip
+Delete file: D:\FSUIPC7\SDK\UIPC_SDK_JAVA.zip
+Delete file: D:\FSUIPC7\SDK\UIPC_SDK_JAVA_64bit.zip
+Delete file: D:\FSUIPC7\SDK\UIPC_SDK_MFC.zip
+Delete file: D:\FSUIPC7\SDK\UIPC_SDK_Python.zip
+Delete file: D:\FSUIPC7\SDK\UIPC_SDK_VisualBasic.zip
+Delete file: D:\FSUIPC7\SDK\UIPC64_SDK_C_version2.zip
+Delete file: D:\FSUIPC7\SDK\UIPCAWI.zip
+Delete file: D:\FSUIPC7\SDK\FSUIPC-WASM.zip
+Delete file: D:\FSUIPC7\SDK\FSUIPC_Java_SDK_by_Mouseviator_v1.0.2_with_C_Libs.zip
+Delete file: D:\FSUIPC7\SDK\FSUIPC_Java_SDK_by_Mouseviator_v1.0.2_NO_C_Libs.zip
+Remove folder: D:\FSUIPC7\SDK\
+Delete file: D:\FSUIPC7\EventFiles\A32X-FBW1.evt
+Delete file: D:\FSUIPC7\EventFiles\A32X-FBW2.evt
+Delete file: D:\FSUIPC7\EventFiles\AS3x-G1000.evt
+Delete file: D:\FSUIPC7\EventFiles\ASCRJ.evt
+Delete file: D:\FSUIPC7\EventFiles\Asobo-A320.evt
+Delete file: D:\FSUIPC7\EventFiles\B3D-737.evt
+Delete file: D:\FSUIPC7\EventFiles\B747-8.evt
+Delete file: D:\FSUIPC7\EventFiles\Cessna C172.evt
+Delete file: D:\FSUIPC7\EventFiles\flybywire-aircraft-a320-neo.evt
+Delete file: D:\FSUIPC7\EventFiles\G36 Beechcraft Bonanza.evt
+Delete file: D:\FSUIPC7\EventFiles\G1000.evt
+Delete file: D:\FSUIPC7\EventFiles\G3000.evt
+Delete file: D:\FSUIPC7\EventFiles\GNS430.evt
+Delete file: D:\FSUIPC7\EventFiles\GNS530.evt
+Delete file: D:\FSUIPC7\EventFiles\GSX_Standalone.evt
+Delete file: D:\FSUIPC7\EventFiles\GTX580-Longitude.evt
+Delete file: D:\FSUIPC7\EventFiles\GTX580-TBM.evt
+Delete file: D:\FSUIPC7\EventFiles\H135.evt
+Delete file: D:\FSUIPC7\EventFiles\Just Flight PA28.evt
+Delete file: D:\FSUIPC7\EventFiles\KAP140.evt
+Delete file: D:\FSUIPC7\EventFiles\KR87.evt
+Delete file: D:\FSUIPC7\EventFiles\KT76C.evt
+Delete file: D:\FSUIPC7\EventFiles\Longitude.evt
+Delete file: D:\FSUIPC7\EventFiles\M20R.evt
+Delete file: D:\FSUIPC7\EventFiles\M803.evt
+Delete file: D:\FSUIPC7\EventFiles\standard1.evt
+Delete file: D:\FSUIPC7\EventFiles\standard2.evt
+Delete file: D:\FSUIPC7\EventFiles\standard3.evt
+Delete file: D:\FSUIPC7\EventFiles\WT-CJ4.evt
+Remove folder: D:\FSUIPC7\EventFiles\
+Delete file: D:\FSUIPC7\HvarFiles\A32NX FBW.hvar
+Delete file: D:\FSUIPC7\HvarFiles\AS3x G1000.hvar
+Delete file: D:\FSUIPC7\HvarFiles\B3D_737.hvar
+Delete file: D:\FSUIPC7\HvarFiles\B747-8.hvar
+Delete file: D:\FSUIPC7\HvarFiles\G1000.hvar
+Delete file: D:\FSUIPC7\HvarFiles\G3000.hvar
+Delete file: D:\FSUIPC7\HvarFiles\GNS 430.hvar
+Delete file: D:\FSUIPC7\HvarFiles\GNS 530.hvar
+Delete file: D:\FSUIPC7\HvarFiles\GTX 580 Longitude.hvar
+Delete file: D:\FSUIPC7\HvarFiles\GTX 580 TBM.hvar
+Delete file: D:\FSUIPC7\HvarFiles\KAP140.hvar
+Delete file: D:\FSUIPC7\HvarFiles\KR87.hvar
+Delete file: D:\FSUIPC7\HvarFiles\KT76C.hvar
+Delete file: D:\FSUIPC7\HvarFiles\M803.hvar
+Delete file: D:\FSUIPC7\HvarFiles\Working Title CJ4.hvar
+Remove folder: D:\FSUIPC7\HvarFiles\
+Delete file: D:\FSUIPC7\Documents.lnk
+Delete file: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module\modules\FSUIPC7_WASM.wasm
+Delete file: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module\modules\A320.hvar
+Delete file: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module\modules\TBM.hvar
+Delete file: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module\modules\DA40-NG.hvar
+Delete file: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module\modules\DA40 TDI.hvar
+Delete file: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module\modules\DA62.hvar
+Delete file: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module\modules\Skyhawk.hvar
+Remove folder: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module\modules\
+Delete file: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module\FSUIPC_WASM.ini
+Delete file: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module\layout.json
+Delete file: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module\manifest.json
+Remove folder: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module\
+Updating EXE.XML for MS Store install
+Deleting FSUIPC documentation installed in D:\下载\FSUIPC7
+Deleted file D:\下载\FSUIPC7\Profiles in Separate Files.pdf
+Deleted file D:\下载\FSUIPC7\LuaFileSystem.pdf
+Deleted file D:\下载\FSUIPC7\Plugins for VRInsight Devices.pdf
+Deleted file D:\下载\FSUIPC7\Lua License.pdf
+Deleted file D:\下载\FSUIPC7\FSUIPC7 User Guide.pdf
+Deleted file D:\下载\FSUIPC7\FSUIPC7 Offsets Status.pdf
+Deleted file D:\下载\FSUIPC7\FSUIPC7 History.pdf
+Deleted file D:\下载\FSUIPC7\FSUIPC7 for Advanced Users.pdf
+Deleted file D:\下载\FSUIPC7\FSUIPC Lua Plug-Ins.pdf
+Deleted file D:\下载\FSUIPC7\FSUIPC Lua Library.pdf
+Deleted file D:\下载\FSUIPC7\Installing and Registering FSUIPC7.pdf
+Deleted file D:\下载\FSUIPC7\Example LUA plugins.zip
+Deleted file D:\下载\FSUIPC7\FSI2 Manual.pdf
+Deleted file D:\下载\FSUIPC7\Offset Mapping for PMDG 737-700.pdf
+Deleted folder D:\下载\FSUIPC7
+Deleted file D:\FSUIPC7\FSUIPC7.exe
+Deleted file D:\FSUIPC7\InstallFSUIPC7.log
+Deleted file D:\FSUIPC7\FSUIPC7.log
+Deleted file D:\FSUIPC7\FSUIPC7_prev.log
+Deleted file D:\FSUIPC7\Utils\FSInterrogate2std.exe
+Deleted file D:\FSUIPC7\Utils\HidScanner.exe
+Deleted file D:\FSUIPC7\Utils\FSUIPCWebSocketServer.exe
+Deleted file D:\FSUIPC7\Utils\FSUIPCWebSocketServer.exe.config

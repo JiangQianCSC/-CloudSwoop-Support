@@ -1,0 +1,40 @@
+{
+  "name": "cloudswoop-pilot-center",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-check": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.16",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/leaflet": "^1.9.20",
+    "@types/nodemailer": "^7.0.1",
+    "@vueuse/core": "^10.4.1",
+    "axios": "^1.5.0",
+    "bcryptjs": "^3.0.2",
+    "dayjs": "^1.11.9",
+    "leaflet": "^1.9.4",
+    "lucide-vue-next": "^0.279.0",
+    "mysql2": "^3.15.0",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^7.0.6",
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.2",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^7.1.5",
+    "vue-tsc": "^3.0.7"
+  }
+}

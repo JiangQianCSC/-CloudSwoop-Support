@@ -1,0 +1,6 @@
+[Events]
+0=MobiFlight.adf_AntAdf
+1=MobiFlight.adf_bfo
+2=MobiFlight.adf_frqTransfert
+3=MobiFlight.adf_FltEt
+4=MobiFlight.adf_SetRst

@@ -1,0 +1,16 @@
+[Events]
+0=MobiFlight.KAP140_Push_AP
+1=MobiFlight.KAP140_Push_HDG
+2=MobiFlight.KAP140_Push_NAV
+3=MobiFlight.KAP140_Push_APR
+4=MobiFlight.KAP140_Push_REV
+5=MobiFlight.KAP140_Push_ALT
+6=MobiFlight.KAP140_Push_UP
+7=MobiFlight.KAP140_Push_DN
+8=MobiFlight.KAP140_Long_Push_BARO
+9=MobiFlight.KAP140_Push_BARO
+10=MobiFlight.KAP140_Push_ARM
+11=MobiFlight.KAP140_Knob_Inner_INC
+12=MobiFlight.KAP140_Knob_Inner_DEC
+13=MobiFlight.KAP140_Knob_Outer_INC
+14=MobiFlight.KAP140_Knob_Outer_DEC

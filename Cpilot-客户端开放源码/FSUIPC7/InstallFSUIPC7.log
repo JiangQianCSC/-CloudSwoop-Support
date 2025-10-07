@@ -1,0 +1,176 @@
+FSUIPC7 Installer v0.9.31 for v7.4.17
+Running in folder 'C:\Users\Lenovo\AppData\Local\Temp\Rar$EXa152364.48305.rartemp\Install_FSUIPC7'
+Determining installation details...
+Installation folder location: D:\FSUIPC7
+Documents folder location: D:\下载\FSUIPC7
+Determing Community folder for MS Store install
+File C:\Users\Lenovo\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache\UserCfg.opt opened OK
+Community folder is: D:\XboxGame\Microsoft Flight Simulator\Community\
+OriginalInstallDir=D:\FSUIPC7, FSUIPCInstalled=1, InstallDocumentsLocation=D:\下载\FSUIPC7, CommunityFolderLocation=D:\XboxGame\Microsoft Flight Simulator\Community\
+Default installation directory is 'D:\FSUIPC7'
+UninstallString found: D:\FSUIPC7\uninstallFSUIPC7.exe
+Uninstalling previous version with uninstaller D:\FSUIPC7\uninstallFSUIPC7.exe...
+Previous version uninstalled ok
+Uninstall for FSUIPC7 completed.
+Output folder: D:\FSUIPC7
+Installing FSUIPC7.exe in D:\FSUIPC7.
+Extract: FSUIPC7.exe... 100%
+FSUIPC7.exe installation completed.
+Adding FSUIPC7 auto-start via the MSFS EXE.xml.
+Updating EXE.XML for MS Store install
+C:\Users\Lenovo\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache\EXE.xml has been updated.
+Installing FSUIPC7 WASM module in D:\XboxGame\Microsoft Flight Simulator\Community\.
+Create folder: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module
+Output folder: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module
+Extract: layout.json... 100%
+Extract: manifest.json... 100%
+Extract: FSUIPC_WASM.ini... 100%
+Create folder: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module\modules
+Output folder: D:\XboxGame\Microsoft Flight Simulator\Community\\fsuipc-lvar-module\modules
+Extract: FSUIPC7_WASM.wasm... 100%
+Extract: A320.hvar... 100%
+Extract: TBM.hvar... 100%
+Extract: DA40-NG.hvar... 100%
+Extract: DA40 TDI.hvar... 100%
+Extract: DA62.hvar... 100%
+Extract: Skyhawk.hvar... 100%
+FSUIPC7 WASM module installation completed.
+Installing User Manuals...
+Create folder: D:\下载\FSUIPC7
+Documents directory created: D:\下载\FSUIPC7
+Output folder: D:\下载\FSUIPC7
+Extract: Installing and Registering FSUIPC7.pdf... 100%
+Extract: FSUIPC7 for Advanced Users.pdf... 100%
+Extract: FSUIPC7 History.pdf... 100%
+Extract: FSUIPC7 Offsets Status.pdf... 100%
+Extract: FSUIPC7 User Guide.pdf... 100%
+Extract: Profiles in Separate Files.pdf... 100%
+Extract: Offset Mapping for PMDG 737.pdf... 100%
+Extract: Offset Mapping for PMDG 777.pdf... 100%
+Output folder: C:\Users\Lenovo\AppData\Local\Temp\Rar$EXa152364.48305.rartemp\Install_FSUIPC7
+Create shortcut: D:\FSUIPC7\Documents.lnk
+Documents shortcut created: D:\FSUIPC7\Documents
+FSUIPC7 User Manuals installed in D:\下载\FSUIPC7.
+Installing Lua Documentation...
+Output folder: D:\下载\FSUIPC7
+Extract: FSUIPC Lua Library.pdf... 100%
+Extract: FSUIPC Lua Plug-Ins.pdf... 100%
+Extract: Lua License.pdf... 100%
+Extract: Lua Plugins for VRInsight Devices.pdf... 100%
+Extract: LuaFileSystem.pdf... 100%
+Extract: Example LUA plugins.zip... 100%
+Output folder: C:\Users\Lenovo\AppData\Local\Temp\Rar$EXa152364.48305.rartemp\Install_FSUIPC7
+FSUIPC7 Lua Documents installed in D:\下载\FSUIPC7.
+Installing SDK...
+Create folder: D:\FSUIPC7\SDK
+SDK folder created: D:\FSUIPC7\SDK
+Output folder: D:\FSUIPC7\SDK
+Extract: FSUIPC feedback control.txt... 100%
+Extract: FSUIPC for Programmers.pdf... 100%
+Extract: FSUIPC_User_Lib_for_VC_2010.zip
+Extract: FSUIPCDotNetClient2.4.zip... 100%
+Extract: Library for FS Internal Users.zip... 100%
+Extract: Module_User_lib_for_VC_2010.zip... 100%
+Extract: ModuleUser64.zip... 100%
+Extract: New Weather Interface for FS2004.zip... 100%
+Extract: NewWeather.h... 100%
+Extract: ReadMe.txt... 100%
+Extract: UIPC_RealBasic_SDK.zip... 100%
+Extract: UIPC_SDK_ASM.zip... 100%
+Extract: UIPC_SDK_BCB5.zip... 100%
+Extract: UIPC_SDK_C.zip... 100%
+Extract: UIPC_SDK_.NET_(C#,VB.NET).txt... 100%
+Extract: UIPC_SDK_Delphi.zip... 100%
+Extract: UIPC_SDK_JAVA.zip... 100%
+Extract: UIPC_SDK_JAVA_64bit.zip... 100%
+Extract: UIPC_SDK_MFC.zip... 100%
+Extract: UIPC_SDK_Python.zip... 100%
+Extract: UIPC_SDK_VisualBasic.zip... 100%
+Extract: UIPC64_SDK_C_version2.zip... 100%
+Extract: UIPCAWI.zip... 100%
+Extract: FSUIPC_Java_SDK_by_Mouseviator_v1.0.2_with_C_Libs.zip... 100%
+Extract: FSUIPC_Java_SDK_by_Mouseviator_v1.0.2_NO_C_Libs.zip... 100%
+Extract: FSUIPC-WASM.zip
+Installation of SDK completed.
+Installing HidScanner...
+Output folder: D:\FSUIPC7\Utils
+Extract: HidScanner.exe... 100%
+HidScanner installed in D:\FSUIPC7\Utils
+Installing FS-Interrogate 2...
+Output folder: D:\FSUIPC7\Utils
+Extract: FSInterrogate2std.exe... 100%
+Skipped: FSUIPC.FSI
+FS-Interrogate 2 installed in D:\FSUIPC7\Utils
+Output folder: D:\下载\FSUIPC7
+Extract: FSI2 Manual.pdf... 100%
+FS-Interrogate 2 User'Manual installed in D:\下载\FSUIPC7
+Installation of FS-Interrogate 2 completed.
+Installing WebSocket Server...
+Output folder: D:\FSUIPC7\Utils
+Extract: FSUIPCWebSocketServer.exe... 100%
+Skipped: FSUIPCWebSocketServer.exe.config
+Extract: FSUIPC_WAPID.dll... 100%
+WebSocket Server installed in D:\FSUIPC7\Utils
+Output folder: D:\FSUIPC7
+Installing MF events.txt file in D:\FSUIPC7.
+Extract: events.txt... 100%
+Extract: events-LICENSE.txt... 100%
+MF events.txt file installation completed.
+Installing MobiFlight Event Files...
+Create folder: D:\FSUIPC7\EventFiles
+EventFiles folder created: D:\FSUIPC7\EventFiles
+Output folder: D:\FSUIPC7\EventFiles
+Extract: A32X-FBW1.evt... 100%
+Extract: A32X-FBW2.evt... 100%
+Extract: AS3x-G1000.evt... 100%
+Extract: ASCRJ.evt... 100%
+Extract: Asobo-A320.evt... 100%
+Extract: B3D-737.evt... 100%
+Extract: B747-8.evt... 100%
+Extract: Cessna C172.evt... 100%
+Extract: flybywire-aircraft-a320-neo.evt... 100%
+Extract: G36 Beechcraft Bonanza.evt... 100%
+Extract: G1000.evt... 100%
+Extract: G3000.evt... 100%
+Extract: GNS430.evt... 100%
+Extract: GNS530.evt... 100%
+Extract: GSX_Standalone.evt
+Extract: GTX580-Longitude.evt... 100%
+Extract: GTX580-TBM.evt... 100%
+Extract: H135.evt... 100%
+Extract: Just Flight PA28.evt... 100%
+Extract: KAP140.evt... 100%
+Extract: KR87.evt... 100%
+Extract: KT76C.evt... 100%
+Extract: Longitude.evt... 100%
+Extract: M20R.evt... 100%
+Extract: M803.evt... 100%
+Extract: standard1.evt... 100%
+Extract: standard2.evt... 100%
+Extract: standard3.evt... 100%
+Extract: WT-CJ4.evt... 100%
+MobiFlight event files installed in D:\FSUIPC7\EventFiles
+Installing H:var Files...
+Create folder: D:\FSUIPC7\HvarFiles
+Hvar files folder created: D:\FSUIPC7\HvarFiles
+Output folder: D:\FSUIPC7\HvarFiles
+Extract: A32NX FBW.hvar... 100%
+Extract: AS3x G1000.hvar... 100%
+Extract: B3D_737.hvar... 100%
+Extract: B747-8.hvar... 100%
+Extract: G1000.hvar... 100%
+Extract: G3000.hvar... 100%
+Extract: GNS 430.hvar... 100%
+Extract: GNS 530.hvar... 100%
+Extract: GTX 580 Longitude.hvar... 100%
+Extract: GTX 580 TBM.hvar... 100%
+Extract: KAP140.hvar... 100%
+Extract: KR87.hvar... 100%
+Extract: KT76C.hvar... 100%
+Extract: M803.hvar... 100%
+Extract: Working Title CJ4.hvar... 100%
+Hvar files installed in D:\FSUIPC7\HvarFiles
+Installation completed. Generating uninstaller...
+Created uninstaller: D:\FSUIPC7\uninstallFSUIPC7.exe
+Updating registry...
+Registry updated. Dumping log to file...

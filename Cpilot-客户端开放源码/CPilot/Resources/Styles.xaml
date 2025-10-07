@@ -1,0 +1,136 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- 标题样式 -->
+    <Style x:Key="CPilotTitleStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Microsoft YaHei UI" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontWeight" Value="Light" />
+        <Setter Property="Foreground" Value="{StaticResource CPilotTextPrimaryBrush}" />
+        <Setter Property="Margin" Value="0,0,0,16" />
+    </Style>
+
+    <!-- 副标题样式 -->
+    <Style x:Key="CPilotSubtitleStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Microsoft YaHei UI" />
+        <Setter Property="FontSize" Value="18" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Setter Property="Foreground" Value="{StaticResource CPilotTextPrimaryBrush}" />
+        <Setter Property="Margin" Value="0,0,0,12" />
+    </Style>
+
+    <!-- 正文样式 -->
+    <Style x:Key="CPilotBodyStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Microsoft YaHei UI" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Setter Property="Foreground" Value="{StaticResource CPilotTextPrimaryBrush}" />
+        <Setter Property="LineHeight" Value="20" />
+    </Style>
+
+    <!-- 说明文字样式 -->
+    <Style x:Key="CPilotCaptionStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Microsoft YaHei UI" />
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Setter Property="Foreground" Value="{StaticResource CPilotTextSecondaryBrush}" />
+    </Style>
+
+    <!-- 状态文本样式 -->
+    <Style x:Key="StatusTextStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="Foreground" Value="{StaticResource CPilotTextSecondaryBrush}" />
+    </Style>
+
+    <!-- 阴影效果 -->
+    <DropShadowEffect x:Key="CPilotCardShadow" 
+                      Color="#40000000" 
+                      Direction="270" 
+                      ShadowDepth="2" 
+                      BlurRadius="8" 
+                      Opacity="0.15" />
+
+    <!-- 主按钮样式 -->
+    <Style x:Key="CPilotPrimaryButtonStyle" TargetType="Button">
+        <Setter Property="Background" Value="{StaticResource CPilotPrimaryBrush}" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="BorderBrush" Value="{StaticResource CPilotPrimaryBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Padding" Value="16,8" />
+        <Setter Property="FontFamily" Value="Microsoft YaHei UI" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="MinHeight" Value="32" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="border" 
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            CornerRadius="4">
+                        <ContentPresenter HorizontalAlignment="Center" 
+                                        VerticalAlignment="Center"
+                                        Margin="{TemplateBinding Padding}" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="{StaticResource CPilotPrimaryHoverBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="{StaticResource CPilotPrimaryPressedBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="border" Property="Background" Value="{StaticResource CPilotTextDisabledBrush}" />
+                            <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource CPilotTextDisabledBrush}" />
+                            <Setter Property="Foreground" Value="White" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- 次要按钮样式 -->
+    <Style x:Key="CPilotSecondaryButtonStyle" TargetType="Button">
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Foreground" Value="{StaticResource CPilotTextPrimaryBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource CPilotBorderBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Padding" Value="16,8" />
+        <Setter Property="FontFamily" Value="Microsoft YaHei UI" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Setter Property="MinHeight" Value="32" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="border" 
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            CornerRadius="4">
+                        <ContentPresenter HorizontalAlignment="Center" 
+                                        VerticalAlignment="Center"
+                                        Margin="{TemplateBinding Padding}" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="{StaticResource CPilotHoverBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="{StaticResource CPilotActiveBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource CPilotTextDisabledBrush}" />
+                            <Setter Property="Foreground" Value="{StaticResource CPilotTextDisabledBrush}" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

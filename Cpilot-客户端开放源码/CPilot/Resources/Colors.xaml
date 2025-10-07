@@ -1,0 +1,73 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- CPilot 主题颜色 -->
+    <!-- 确保资源正确加载 -->
+    
+    <!-- 主色调 -->
+    <Color x:Key="CPilotPrimaryColor">#0078D4</Color>
+    <Color x:Key="CPilotPrimaryLightColor">#40E0FF</Color>
+    <Color x:Key="CPilotPrimaryDarkColor">#005A9E</Color>
+    
+    <!-- 辅助色调 -->
+    <Color x:Key="CPilotAccentColor">#FF6B35</Color>
+    <Color x:Key="CPilotSuccessColor">#107C10</Color>
+    <Color x:Key="CPilotWarningColor">#FF8C00</Color>
+    <Color x:Key="CPilotErrorColor">#D13438</Color>
+    
+    <!-- 中性色调 -->
+    <Color x:Key="CPilotBackgroundColor">#F3F2F1</Color>
+    <Color x:Key="CPilotSurfaceColor">#FFFFFF</Color>
+    <Color x:Key="CPilotBorderColor">#E1DFDD</Color>
+    
+    <!-- 文本颜色 -->
+    <Color x:Key="CPilotTextPrimaryColor">#323130</Color>
+    <Color x:Key="CPilotTextSecondaryColor">#605E5C</Color>
+    <Color x:Key="CPilotTextDisabledColor">#A19F9D</Color>
+    <!-- 状态颜色 -->
+    <Color x:Key="OnlineStatusColor">#107C10</Color>
+    <Color x:Key="OfflineStatusColor">#D13438</Color>
+    <Color x:Key="ConnectingStatusColor">#FF8C00</Color>
+    
+    <!-- 主色调 - 更亮更现代 -->
+    <SolidColorBrush x:Key="CPilotPrimaryBrush" Color="#0078D4" />
+    <SolidColorBrush x:Key="CPilotPrimaryHoverBrush" Color="#106EBE" />
+    <SolidColorBrush x:Key="CPilotPrimaryPressedBrush" Color="#005A9E" />
+    <SolidColorBrush x:Key="CPilotPrimaryDarkBrush" Color="#005A9E" />
+    
+    <!-- 次要色调 - 更柔和 -->
+    <SolidColorBrush x:Key="CPilotSecondaryBrush" Color="#8E8E93" />
+    <SolidColorBrush x:Key="CPilotSecondaryHoverBrush" Color="#7C7C81" />
+    <SolidColorBrush x:Key="CPilotSecondaryPressedBrush" Color="#6A6A6F" />
+    
+    <!-- 背景色 - 更明亮的配色方案 -->
+    <SolidColorBrush x:Key="CPilotBackgroundBrush" Color="#F5F5F7" />
+    <SolidColorBrush x:Key="CPilotSurfaceBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="CPilotCardBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="CPilotPanelBrush" Color="#FAFAFA" />
+    <SolidColorBrush x:Key="CPilotListBrush" Color="#FFFFFF" />
+    
+    <!-- 文本色 - 更高对比度 -->
+    <SolidColorBrush x:Key="CPilotTextPrimaryBrush" Color="#1D1D1F" />
+    <SolidColorBrush x:Key="CPilotTextSecondaryBrush" Color="#515154" />
+    <SolidColorBrush x:Key="CPilotTextMutedBrush" Color="#8E8E93" />
+    <SolidColorBrush x:Key="CPilotTextLightBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="CPilotTextDisabledBrush" Color="#A19F9D" />
+    
+    <!-- 边框色 - 更细腻 -->
+    <SolidColorBrush x:Key="CPilotBorderBrush" Color="#D1D1D6" />
+    <SolidColorBrush x:Key="CPilotBorderLightBrush" Color="#E5E5EA" />
+    <SolidColorBrush x:Key="CPilotSeparatorBrush" Color="#F2F2F7" />
+    
+    <!-- 状态色 - 更鲜明 -->
+    <SolidColorBrush x:Key="CPilotSuccessBrush" Color="#30D158" />
+    <SolidColorBrush x:Key="CPilotWarningBrush" Color="#FF9F0A" />
+    <SolidColorBrush x:Key="CPilotErrorBrush" Color="#FF3B30" />
+    <SolidColorBrush x:Key="CPilotInfoBrush" Color="#007AFF" />
+    
+    <!-- 悬停和选中状态 -->
+    <SolidColorBrush x:Key="CPilotHoverBrush" Color="#F0F0F5" />
+    <SolidColorBrush x:Key="CPilotSelectedBrush" Color="#E3F2FD" />
+    <SolidColorBrush x:Key="CPilotActiveBrush" Color="#BBDEFB" />
+
+</ResourceDictionary>

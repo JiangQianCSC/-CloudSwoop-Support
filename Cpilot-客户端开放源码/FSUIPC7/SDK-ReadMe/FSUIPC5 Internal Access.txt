@@ -1,0 +1,61 @@
+======================================
+Internal IPC interface for 64-bit Sims
+======================================
+
+You can use the IPC interface from modules within P3D4, such as Gauges and other
+full P3D4 modules. Rather than go to all the trouble of registering messages and
+obtaining  memory mapped files, because you are running in the same process
+you can pass data directly, via pointers.
+
+I've now included a separate C library for such uses. It is "ModuleUsers64.lib".
+Use this in exactly the same way as illustrated for external users, except for
+the following differences:
+
+Allocation of memory
+--------------------
+
+Before Opening the link to FSUIPC, you need to allocate sufficient memory
+for the data being passed back and forth. This area needs to be larger than
+the actual data to allow for headers -- add 16 bytes for every separate
+FSUIPC_Read and FSUIPC_Write request accumulated prior to the FSUIPC_Process
+call, and another 16 bytes on top of it all.
+
+If you Process each item separately just make sure the memory is large enough
+for the largest such request, plus 32 bytes. The maximum usable is 32512 bytes,
+and the library routines check that you provide at least 32 bytes.
+
+Whether you allocate memory dynamically or merely pre-define a BYTE array for 
+the space is up to you. If you use this access throughout the life of your
+module or gauge you might as well pre-define it. The same applies if it is
+only a small area, not worth "saving" when not in use.
+
+If you do allocate it from Windows or from FS's heap, remember to free it
+AFTER closing the FSUIPC link.
+
+Opening the link
+----------------
+
+To start the link with FSUIPC use
+
+ FSUIPC_Open2(DWORD dwFSReq, DWORD *pdwResult, BYTE *pMem, DWORD dwSize);
+
+instead of the FSUIPC_Open() call. Provide a pointer to the memory space as
+pMem and its size as dwSize.
+
+You will probably need to delay opening the link for several seconds after FS
+starts your module. If it is a gauge you may not have a problem. One way is to
+simply retry the Open2 each time you are supposed to do something, until it
+works. The reason for the possible delay is that FSUIPC's interface is not
+available until everything else in FS is initialised. this can be a few
+seconds after loading.
+
+That's it. Now use FSUIPC_Read, FSUIPC_Write and FSUIPC_Process as you wish.
+
+It is good practive to do an FSUIPC_Close at the end, though in this case
+this doesn't actually do much. You won't be able to re-Open unless you've
+Closed though.
+
+============================
+
+Peter Dowson, 10th June 2017
+============================

@@ -1,0 +1,17 @@
+[Events]
+0=MobiFlight.AS3X_1_SOFTKEYS_1
+1=MobiFlight.AS3X_1_SOFTKEYS_2
+2=MobiFlight.AS3X_1_SOFTKEYS_3
+3=MobiFlight.AS3X_1_SOFTKEYS_4
+4=MobiFlight.AS3X_1_SOFTKEYS_5
+5=MobiFlight.AS3X_1_ENT_Push
+6=MobiFlight.AS3X_1_FPL_Push
+7=MobiFlight.AS3X_1_CLR_Push
+8=MobiFlight.AS3X_1_MENU_Push
+9=MobiFlight.AS3X_1_DIRECTTO
+10=MobiFlight.AS3X_1_NRST_Push
+11=MobiFlight.AS3X_1_RNG_Dezoom
+12=MobiFlight.AS3X_1_RNG_Zoom
+13=MobiFlight.AS3X_1_JOYSTICK_PUSH
+14=MobiFlight.AS3X_1_TURN_DEC
+15=MobiFlight.AS3X_1_TURN_INC

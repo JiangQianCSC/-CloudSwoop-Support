@@ -1,0 +1,17 @@
+Good?, flags, VID, PID, Name, INIid, REGid, RegEntry, INIguid, REGguid, HIDguid, ValsOK?, ReadsOk?
+
+,,, HIDscanning completed
+
+N, x00, x2563, x0526, , -1, -1, 0, {NULL}, {NULL}, {E527DC30-FD15-11EF-8002-444553540000}, Y, N
+
+,,, REGscanning completed
+
+N, x00, x2563, x0526, Android Gamepad, -1, 0, 0, {NULL}, {E527DC30-FD15-11EF-8002-444553540000}, {E527DC30-FD15-11EF-8002-444553540000}, Y, Y
+
+,,, User settings imported
+
+N, x00, x2563, x0526, Android Gamepad, 0, 0, 0, {E527DC30-FD15-11EF-8002-444553540000}, {E527DC30-FD15-11EF-8002-444553540000}, {E527DC30-FD15-11EF-8002-444553540000}, Y, Y
+
+,,, Values matched and decided
+
+Y, x1E, x2563, x0526, Android Gamepad, 0, 0, 0, {E527DC30-FD15-11EF-8002-444553540000}, {E527DC30-FD15-11EF-8002-444553540000}, {E527DC30-FD15-11EF-8002-444553540000}, Y, Y
