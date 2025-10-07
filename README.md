@@ -3,6 +3,9 @@
 ## 为开发者提供API以协助开发
 - **后端API**: 请查看[Http API](https://app.apifox.com/project/7208032)
 
+## 使用中出现问题或提交意见及反馈
+- **issues**: 请在[issues](https://github.com/JiangQianCSC/-CloudSwoop-Support/issues)提交
+
 ## 联系方式与购买信息
 
 ### 官方网站
