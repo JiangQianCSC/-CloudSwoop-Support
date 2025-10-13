@@ -1,7 +1,7 @@
 # CloudSwoop 飞控系统项目
 
 ## 为开发者提供API以协助开发
-- **后端API**: 请查看[Http API]((https://s.apifox.cn/b4d7d7dc-d216-403b-b1c5-20b3fb261fe0))
+- **后端API**: 请查看[Http API](https://s.apifox.cn/b4d7d7dc-d216-403b-b1c5-20b3fb261fe0)
 
 ## 使用中出现问题或提交意见及反馈
 - **issues**: 请在[issues](https://github.com/JiangQianCSC/-CloudSwoop-Support/issues)提交
