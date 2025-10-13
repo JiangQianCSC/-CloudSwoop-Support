@@ -1,7 +1,7 @@
 # CloudSwoop 飞控系统项目
 
 ## 为开发者提供API以协助开发
-- **后端API**: 请查看[Http API](vacst.apifox.cn)
+- **后端API**: 请查看[Http API](https://vacst.apifox.cn/)
 
 ## 使用中出现问题或提交意见及反馈
 - **issues**: 请在[issues](https://github.com/JiangQianCSC/-CloudSwoop-Support/issues)提交
